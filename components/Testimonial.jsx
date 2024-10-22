@@ -42,7 +42,7 @@ const Testimonial = () => {
               Testimonials
             </span>
             <h2 class="text-4xl font-bold text-gray-900 leading-[3.25rem] mb-8">
-              Our Alumni's&nbsp;
+              Our Alumni&apos;s&nbsp;
               <span class=" text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-blue-800">
                 Feedback
               </span>

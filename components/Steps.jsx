@@ -59,7 +59,10 @@ const VisaApplicationSteps = () => {
 
         <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-8 lg:space-y-0 lg:items-center">
           {steps.map((item, index) => (
-            <div class="group relative flex flex-col mx-auto w-full max-w-sm bg-white rounded-2xl shadow-2xl transition-all duration-300  p-8 xl:p-12  ">
+            <div
+              class="group relative flex flex-col mx-auto w-full max-w-sm bg-white rounded-2xl shadow-2xl transition-all duration-300  p-8 xl:p-12  "
+              key={index}
+            >
               <div class="border-b border-solid border-gray-200 pb-9 mb-9">
                 <div class="w-16 h-16 rounded-full bg-indigo-50 mx-auto flex justify-center items-center transition-all duration-300 group-hover:bg-blue-600">
                   {item.icon}

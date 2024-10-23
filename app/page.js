@@ -2,6 +2,7 @@
 import About from "@/components/About";
 import { BackgroundCellCore } from "@/components/Background";
 import Brands from "@/components/Brands";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <Services />
       <Testimonial />
+      <Footer />
     </div>
   );
 }

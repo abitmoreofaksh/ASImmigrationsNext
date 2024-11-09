@@ -26,19 +26,11 @@ const Navbar = () => {
     },
     {
       name: "About",
-      linkto: "/about-us",
-    },
-    {
-      name: "Projects",
-      linkto: "/our-projects",
+      linkto: "/#about-us",
     },
     {
       name: "Services",
-      linkto: "/our-services",
-    },
-    {
-      name: "Contact Us",
-      linkto: "/contact-us",
+      linkto: "/#our-services",
     },
   ];
   const [open, setOpen] = useState(false);
@@ -111,7 +103,7 @@ const Navbar = () => {
           animate={
             !visible
               ? {
-                  width: "65%",
+                  width: "70%",
                   borderRadius: "40px",
                   background: "rgba(245,245,245,0.5)",
                   backdropFilter: "blur(2px)",
@@ -181,7 +173,7 @@ const Navbar = () => {
                 </div>
                 <Link
                   href="/enrollment-form"
-                  className="relative items-center justify-start hidden md:inline-block px-5 py-2.5 overflow-hidden font-medium transition-all bg-indigo-600 rounded-lg hover:bg-indigo-50 group"
+                  className=" relative items-center justify-start hidden lg:inline-block px-5 py-2.5 overflow-hidden font-medium transition-all bg-indigo-600 rounded-lg hover:bg-indigo-50 group"
                   role="button"
                 >
                   <button class="">

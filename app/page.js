@@ -1,12 +1,11 @@
 "use client";
 import About from "@/components/About";
+import Accordion from "@/components/Accordion";
 import { BackgroundCellCore } from "@/components/Background";
-import Brands from "@/components/Brands";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
-import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (
@@ -14,10 +13,11 @@ export default function Home() {
       <Navbar />
       <Hero />
       <BackgroundCellCore />
-      <Brands />
+      {/* <Brands /> */}
       <About />
       <Services />
-      <Testimonial />
+      {/* <Testimonial /> */}
+      <Accordion />
       <Footer />
     </div>
   );

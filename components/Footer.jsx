@@ -10,7 +10,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-white border-t border-gray-200">
+    <footer className="bg-white border-t border-gray-200 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -176,7 +176,9 @@ const Footer = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                123 Business Street, City
+                SCO 65, First Floor of, Surindra & Co. Property Advisor, Pipli
+                Rd, opposite Tejas Diagnostic, Mohan Nagar, Kurukshetra, Haryana
+                136118
               </li>
               <li className="flex items-center text-gray-600">
                 <svg
@@ -187,7 +189,7 @@ const Footer = () => {
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
-                contact@asimmigrations.com
+                info@asimmigrations.com
               </li>
               {/* <li className="flex items-center text-gray-600">
                 <svg
@@ -216,6 +218,7 @@ const Footer = () => {
           </p>
         </motion.div>
       </div>
+      <div className="opacity-10 bg-[url(/images/world.svg)] absolute inset-0"></div>
     </footer>
   );
 };

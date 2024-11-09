@@ -176,7 +176,7 @@ const Accordion = () => {
 
   return (
     <div className="max-w-7xl mx-auto p-6">
-      <h3 className="text-6xl font-semibold text-center mb-2">FAQ's</h3>
+      <h3 className="text-6xl font-semibold text-center mb-2">FAQ&apos;s</h3>
       <p className="text-center mb-4">Frequently Asked Questions</p>
       <div className="space-y-3 bg-white rounded-xl shadow-sm border border-gray-100">
         {items.map((item, index) => (

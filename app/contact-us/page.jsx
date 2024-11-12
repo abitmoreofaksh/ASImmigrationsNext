@@ -50,7 +50,7 @@ const page = () => {
               className="bg-gray-50 p-6 rounded-lg"
             >
               <h3 className="font-medium mb-2">Email</h3>
-              <p>We're usually replaying within 24 hours</p>
+              <p>We&apos;re usually replaying within 24 hours</p>
               <p className="text-indigo-600">info@asimmigrations.com</p>
             </motion.div>
 

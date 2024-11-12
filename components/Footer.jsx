@@ -10,7 +10,8 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-white border-t border-gray-200 relative">
+    <footer className="border-t border-gray-200 relative pointer-events-auto">
+      <div className="opacity-10 bg-[url(/images/world.svg)] absolute inset-0 -z-10"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -214,11 +215,14 @@ const Footer = () => {
           variants={fadeInUp}
         >
           <p className="text-center text-gray-500">
-            © {new Date().getFullYear()} AS Immigrations. All rights reserved.
+            © {new Date().getFullYear()} AS Immigrations. All rights reserved. |
+            Made and maintained by{" "}
+            <Link className="text-blue-600 " href={"https://genvwebsters.com"}>
+              GenV Websters
+            </Link>
           </p>
         </motion.div>
       </div>
-      <div className="opacity-10 bg-[url(/images/world.svg)] absolute inset-0"></div>
     </footer>
   );
 };

@@ -25,12 +25,8 @@ const Navbar = () => {
       linkto: "/",
     },
     {
-      name: "About",
-      linkto: "/#about-us",
-    },
-    {
-      name: "Services",
-      linkto: "/#our-services",
+      name: "Contact Us",
+      linkto: "/contact-us",
     },
   ];
   const [open, setOpen] = useState(false);

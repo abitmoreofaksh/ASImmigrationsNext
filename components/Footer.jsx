@@ -73,7 +73,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/about"
+                  href="/about-us"
                   className="text-gray-600 hover:text-[#3b52d4]"
                 >
                   About Us

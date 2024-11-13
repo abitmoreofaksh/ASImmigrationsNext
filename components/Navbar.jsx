@@ -25,6 +25,10 @@ const Navbar = () => {
       linkto: "/",
     },
     {
+      name: "About",
+      linkto: "/about-us",
+    },
+    {
       name: "Contact Us",
       linkto: "/contact-us",
     },

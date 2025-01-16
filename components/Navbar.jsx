@@ -78,7 +78,7 @@ const Navbar = () => {
             </Link>
           ))}
 
-          <Link href="/enrollment-form">
+          <Link href="#">
             <div className="p-2">
               <div className="p-2 pl-5 border-b ">
                 <ListItemText primary={"Enroll Now"} />

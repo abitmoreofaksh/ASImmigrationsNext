@@ -80,26 +80,17 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/services"
-                  className="text-gray-600 hover:text-[#3b52d4]"
-                >
+                <Link href="#" className="text-gray-600 hover:text-[#3b52d4]">
                   Services
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/projects"
-                  className="text-gray-600 hover:text-[#3b52d4]"
-                >
+                <Link href="#" className="text-gray-600 hover:text-[#3b52d4]">
                   Projects
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/contact"
-                  className="text-gray-600 hover:text-[#3b52d4]"
-                >
+                <Link href="#" className="text-gray-600 hover:text-[#3b52d4]">
                   Contact
                 </Link>
               </li>
@@ -119,34 +110,22 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <Link
-                  href="/visa-consulting"
-                  className="text-gray-600 hover:text-[#3b52d4]"
-                >
+                <Link href="#" className="text-gray-600 hover:text-[#3b52d4]">
                   Visa Consulting
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/education"
-                  className="text-gray-600 hover:text-[#3b52d4]"
-                >
+                <Link href="#" className="text-gray-600 hover:text-[#3b52d4]">
                   Education Services
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/immigration"
-                  className="text-gray-600 hover:text-[#3b52d4]"
-                >
+                <Link href="#" className="text-gray-600 hover:text-[#3b52d4]">
                   Immigration Support
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/settlement"
-                  className="text-gray-600 hover:text-[#3b52d4]"
-                >
+                <Link href="#" className="text-gray-600 hover:text-[#3b52d4]">
                   Settlement Services
                 </Link>
               </li>
